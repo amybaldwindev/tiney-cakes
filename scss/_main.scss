@@ -1,0 +1,14 @@
+// Bootstrap overrides
+//
+// Copy variables from `_variables.scss` to this file to override default values
+// without modifying source files.
+//write your css here in main.scss
+ul {
+	float: right;
+	li {
+		background: yellow;
+		a {
+			display: inline-block;
+		}
+	}
+}

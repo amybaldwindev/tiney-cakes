@@ -1,8 +1,22 @@
+* {
+
+}
+
 header {
-	background: green;
+	background:  #dea0f7;
 	text-align: center;
 	color: white;
 }
-header .a {
+.nav-item {
 	color: white;
 }
+figure {
+	background: #fff;
+	border-radius: 300px;
+	
+	margin: 0 auto;
+	padding: 70px;
+
+}
+.store {
+	background: blue;

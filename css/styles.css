@@ -1,7 +1,6 @@
 * {
 
 }
-
 header {
 	background:  #dea0f7;
 	text-align: center;
@@ -13,10 +12,6 @@ header {
 figure {
 	background: #fff;
 	border-radius: 300px;
-	
 	margin: 0 auto;
 	padding: 70px;
-
 }
-.store {
-	background: blue;

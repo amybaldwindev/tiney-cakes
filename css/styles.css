@@ -9,9 +9,28 @@ header {
 .nav-item {
 	color: white;
 }
+.container-fluid {
+	background: url('/images/backgrounds/symphony.png');
+}
 figure {
-	background: #fff;
-	border-radius: 300px;
 	margin: 0 auto;
-	padding: 70px;
+}
+.logo {
+	background: #fff;
+	max-height: 7em;
+    min-height: 5em;
+    padding: .5em;
+    border-radius: 300px;
+}
+/*.store {
+	background: url('/images/backgrounds/symphony.png');
+}
+.about {
+	background: url('/images/backgrounds/geometry.png');
+}
+.history {
+	background: url('/images/backgrounds/new-year.png');
+}
+.contact {
+	background: url('/images/backgrounds/symphony.png');*/
 }

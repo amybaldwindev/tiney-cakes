@@ -1,13 +1,13 @@
 # tiny-cakes
 
-# Description
+## Description
 
 Fun website to help Tiny Cakes Bakery, a Venice-based company, who want to share their tasty decadent treats with the world.
 
-# Dependencies:
+## Dependencies:
 npm and gulp 
 
-# Set-up
+## Set-up
 
 git clone https://github.com/rachy/bootstrap-4-sass.git
 

@@ -1,0 +1,56 @@
+/*font-family: 'Pacifico', cursive;
+font-family: 'Open Sans', sans-serif;*/
+
+.jumbotron {
+	background-image: url('/images/cupcakes-lime-sm.jpg');
+	min-height: 80vh;
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: 50% 50%;
+}
+.collapse.navbar-collapse {
+	font-size: 1.5em;
+}
+.welcome {
+	font-family: 'Pacifico', cursive;
+	font-size: 4em;
+	text-align: center;
+	padding-top: 1em;
+	color: #dea0f6;
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {
+	.welcome {
+		font-size: 6em;
+	}
+
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+	.welcome {
+		font-size: 9em;
+
+	}
+}
+
+
+	
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+	.jumbotron {
+		background-image: url('/images/cupcakes-lime-lg.jpg');
+		/*min-height: 80vh;
+		background-attachment: fixed;
+		background-size: cover;
+		background-position: 50% 50%;*/
+	}
+
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+
+}

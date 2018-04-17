@@ -3,10 +3,15 @@ font-family: 'Open Sans', sans-serif;*/
 
 .jumbotron {
 	background-image: url('/images/cupcakes-lime-sm.jpg');
-	min-height: 80vh;
+	min-height: 90vh;
 	background-attachment: fixed;
 	background-size: cover;
 	background-position: 50% 50%;
+}
+.position-fixed {
+    background: #d4cac1;
+    width: 100%;
+    z-index: 1;
 }
 .collapse.navbar-collapse {
 	font-size: 1.5em;
@@ -18,7 +23,12 @@ font-family: 'Open Sans', sans-serif;*/
 	padding-top: 1em;
 	color: #dea0f6;
 }
-
+.gallery {
+	max-width: 100%;
+}
+.inverted {
+	max-width: 100%;
+}
 /*Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) {
 	.welcome {

@@ -1,6 +1,10 @@
 /*font-family: 'Pacifico', cursive;
 font-family: 'Open Sans', sans-serif;*/
 
+* {
+	font-family: 'Open Sans', sans-serif;*/
+}
+
 .jumbotron {
 	background-image: url('/images/cupcakes-lime-sm.jpg');
 	min-height: 90vh;
@@ -9,7 +13,7 @@ font-family: 'Open Sans', sans-serif;*/
 	background-position: 50% 50%;
 }
 .position-fixed {
-    background: #d4cac1;
+    background: #fafad2;
     width: 100%;
     z-index: 1;
 }
@@ -36,7 +40,17 @@ font-family: 'Open Sans', sans-serif;*/
 	}
 
 }
-
+.h2 {
+	font-family: 'Pacifico', cursive;
+	color: skyblue;
+}
+.h3 {
+	font-family: 'Pacifico', cursive;
+	
+}
+.store {
+	background: url('/images/background.png');
+}
 /*Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) {
 	.welcome {

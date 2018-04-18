@@ -16,21 +16,41 @@ font-family: 'Open Sans', sans-serif;*/
 * {
 	font-family: 'Open Sans', sans-serif;*/
 }
+/* General Styles */
+.h2 {
+	font-family: 'Pacifico', cursive;
+	padding-top: 1.5rem;
+	padding-bottom: 1.5rem;
+	color:  #9d84d8 /* purple */
+}
+.h3 {
+	font-family: 'Pacifico', cursive;
+	color: #e13a92; /* pink */
+	
+}
 
+.btn.btn-outline-primary {
+	background: #bba64d;
+	border: 1px solid #bba64d;
+	border-radius: 0;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	padding: .5em 3em;
+	margin-bottom: .95em;
+	color: #fff;
+}
+svg {
+	color: #f2e5b0;
+	fill: currentColor;
+	margin-left: 15px;
+}
+/* landing page */
 .jumbotron {
 	background-image: url('/images/cupcakes-lime-sm.jpg');
 	min-height: 90vh;
 	background-attachment: fixed;
 	background-size: cover;
 	background-position: 50% 50%;
-}
-.position-fixed {
-    background: #fafad2;
-    width: 100%;
-    z-index: 1;
-}
-.collapse.navbar-collapse {
-	font-size: 1.5em;
 }
 .welcome {
 	font-family: 'Pacifico', cursive;
@@ -39,16 +59,50 @@ font-family: 'Open Sans', sans-serif;*/
 	padding-top: 1em;
 	color: #9d84d8 /* purple */
 }
-.gallery {
-	max-width: 100%;
-}
-.inverted {
-	max-width: 100%;
-}
 
+/* navigation */
+.position-fixed {
+    background: #fafad2;
+    width: 100%;
+    z-index: 1;
+}
+.collapse.navbar-collapse {
+	font-size: 1.5em;
+}
+/* store */
+.store {
+	background-image: url('/images/memphis-colorful.png');
+}
 .items {
 	padding-bottom: 2em;
 }
+.gallery {
+	border-radius: 300px;
+	max-height: 200px;
+	max-width: 200px;
+}
+
+/* inverted */
+.inverted {
+	border-radius: 300px;
+	max-height: 300px;
+	max-width: 300px;
+}
+.services {
+	background:#e13a92;/* pink */
+	max-width: 100%;
+}
+.h2-inverted {
+	color: #f2e5b0; /* sun yellow */
+}
+.h3-inverted {
+	color: #fff;
+}
+.p-inverted {
+	color:#dbc3e3; /*lavender */
+}
+
+
 /*Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) {
 	.welcome {
@@ -57,24 +111,6 @@ font-family: 'Open Sans', sans-serif;*/
 
 }
 
-/*.about {
-	margin-left: 20%;
-}
-.history {
-	margin-right: 20%;
-}*/
-.h2 {
-	font-family: 'Pacifico', cursive;
-	color:  #9d84d8 /* purple */
-}
-.h3 {
-	font-family: 'Pacifico', cursive;
-	color: #e13a92 /* pink */
-	
-}
-.store {
-	background: url('/images/background.png');
-}
 /*Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) {
 	.welcome {
@@ -85,28 +121,20 @@ font-family: 'Open Sans', sans-serif;*/
 		border-right: 1px solid #dbc3e3; /* lavender */
 		border-left: 1px solid #dbc3e3; /* lavender */
 	}
+	.gallery {
+		max-height: 100%;
+		max-width: 100%;
+	}
+	.inverted {
+		max-height: 100%;
+		max-width: 100%;
+	}
 }
-
-svg {
-	color: #f2e5b0;
-	fill: currentColor;
-	margin-left: 15px;
-}
-
-
-
-
-
-	
 
 /*Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) {
 	.jumbotron {
 		background-image: url('/images/cupcakes-lime-lg.jpg');
-		/*min-height: 80vh;
-		background-attachment: fixed;
-		background-size: cover;
-		background-position: 50% 50%;*/
 	}
 
 }

@@ -1,6 +1,18 @@
 /*font-family: 'Pacifico', cursive;
 font-family: 'Open Sans', sans-serif;*/
 
+/*colors*/
+/* pastels */
+/* #f2e5b0 sun-yellow*/
+/* #96dbe2 skyblue*/
+/* #dbc3e3 lavender */
+/* #dea0f6 dark lavender*/
+/* #efb5c4 baby-pink*/
+
+/* viberent*/
+/* #75d5e5 blue */
+/* #e13a92 pink */
+/* #9d84d8 purple*/
 * {
 	font-family: 'Open Sans', sans-serif;*/
 }
@@ -25,13 +37,17 @@ font-family: 'Open Sans', sans-serif;*/
 	font-size: 4em;
 	text-align: center;
 	padding-top: 1em;
-	color: #dea0f6;
+	color: #9d84d8 /* purple */
 }
 .gallery {
 	max-width: 100%;
 }
 .inverted {
 	max-width: 100%;
+}
+
+.items {
+	padding-bottom: 2em;
 }
 /*Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) {
@@ -40,12 +56,20 @@ font-family: 'Open Sans', sans-serif;*/
 	}
 
 }
+
+/*.about {
+	margin-left: 20%;
+}
+.history {
+	margin-right: 20%;
+}*/
 .h2 {
 	font-family: 'Pacifico', cursive;
-	color: skyblue;
+	color:  #9d84d8 /* purple */
 }
 .h3 {
 	font-family: 'Pacifico', cursive;
+	color: #e13a92 /* pink */
 	
 }
 .store {
@@ -57,7 +81,20 @@ font-family: 'Open Sans', sans-serif;*/
 		font-size: 9em;
 
 	}
+	.middle {
+		border-right: 1px solid #dbc3e3; /* lavender */
+		border-left: 1px solid #dbc3e3; /* lavender */
+	}
 }
+
+svg {
+	color: #f2e5b0;
+	fill: currentColor;
+	margin-left: 15px;
+}
+
+
+
 
 
 	

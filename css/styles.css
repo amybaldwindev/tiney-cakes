@@ -28,6 +28,9 @@ font-family: 'Open Sans', sans-serif;*/
 	color: #e13a92; /* pink */
 	
 }
+p {
+	color: #e13a92;
+}
 
 .btn {
 	background: #bba64d;
@@ -49,6 +52,12 @@ svg {
 	color: #f2e5b0;
 	fill: currentColor;
 	margin-left: 15px;
+	width: 45px;
+    height: 45px;
+    padding: 10px;
+    background: pink;
+    border-radius: 100px;
+	
 }
 /* landing page */
 .jumbotron {
@@ -124,6 +133,19 @@ svg {
 	font-style: italic;
 }
 
+/* footer */
+.cpyrgt {
+	text-align: center;
+	padding: 10px;
+}
+.social  {
+	text-align: center;
+}
+.logo-container {
+	text-align: center;
+}
+
+
 
 /*Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) {
@@ -151,6 +173,12 @@ svg {
 		max-height: 100%;
 		max-width: 100%;
 	}
+	.cpyrgt {
+		text-align: left;
+	}
+	.social {
+		text-align: right;
+	}
 
 }
 
@@ -167,6 +195,7 @@ svg {
 		background: #fff;
 		opacity: .85;
 	}
+	
 
 }
 

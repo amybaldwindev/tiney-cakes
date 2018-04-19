@@ -51,7 +51,9 @@ p {
 svg {
 	color: #f2e5b0;
 	fill: currentColor;
-	margin-left: 15px;
+	/*margin-left: 15px;*/
+	margin-right: 7.5px;
+	margin-left: 7.5px;
 	width: 45px;
     height: 45px;
     padding: 10px;
@@ -144,7 +146,7 @@ svg {
 }
 .social  {
 	text-align: center;
-	margin: -1.2em;
+	margin-top: -1.2em;
 }
 .logo-container {
 	text-align: center;
@@ -183,6 +185,10 @@ svg {
 	}
 	.social {
 		text-align: right;
+		margin-top: 0;
+	}
+	svg {
+		margin-left: 15px;
 	}
 
 }

@@ -18,7 +18,8 @@ font-family: 'Open Sans', sans-serif;*/
 }
 /* General Styles */
 .h2 {
-	font-family: 'Pacifico', cursive;
+	/*font-family: 'Pacifico', cursive;*/
+	font-family: 'Fredericka the Great', cursive;
 	padding-top: 1.5rem;
 	padding-bottom: 1.5rem;
 	color:  #9d84d8 /* purple */
@@ -70,7 +71,8 @@ svg {
 	background-position: 50% 50%;
 }
 .welcome {
-	font-family: 'Pacifico', cursive;
+	/*font-family: 'Pacifico', cursive;*/
+	font-family: 'Fredericka the Great', cursive;
 	font-size: 4em;
 	text-align: center;
 	padding-top: 1em;
@@ -78,10 +80,18 @@ svg {
 }
 
 /* navigation */
+.navbar-toggler {
+	border:none;
+}
 .position-fixed {
-    background: #fafad2;
+    /*background: #fafad2;
     width: 100%;
-    z-index: 1;
+    z-index: 1;*/
+}
+.nav-menu svg{
+	background: none;
+	border-radius: 0;
+	color: #bba64d;
 }
 .collapse.navbar-collapse {
 	font-size: 1.5em;

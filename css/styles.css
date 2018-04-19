@@ -134,12 +134,17 @@ svg {
 }
 
 /* footer */
+.text-logo-sm {
+	padding:0;
+	margin: 1em 0 -1.5em;
+}
 .cpyrgt {
 	text-align: center;
 	padding: 10px;
 }
 .social  {
 	text-align: center;
+	margin: -1.2em;
 }
 .logo-container {
 	text-align: center;

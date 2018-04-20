@@ -113,8 +113,9 @@ svg {
 }
 .gallery {
 	border-radius: 300px;
+	padding: 8%;
 	max-height: 200px;
-	max-width: 200px;
+	max-width: 100%;
 }
 /* about */
 .about {

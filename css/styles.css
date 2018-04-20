@@ -1,5 +1,3 @@
-/*font-family: 'Pacifico', cursive;
-font-family: 'Open Sans', sans-serif;*/
 
 /*colors*/
 /* pastels */
@@ -9,16 +7,16 @@ font-family: 'Open Sans', sans-serif;*/
 /* #dea0f6 dark lavender*/
 /* #efb5c4 baby-pink*/
 
-/* viberent*/
+/* vibrant */
 /* #75d5e5 blue */
 /* #e13a92 pink */
 /* #7246da purple*/
+/* #bba64d; gold */
 * {
 	font-family: 'Open Sans', sans-serif;*/
 }
 /* General Styles */
 .h2 {
-	/*font-family: 'Pacifico', cursive;*/
 	font-family: 'Fredericka the Great', cursive;
 	padding-top: 1.5rem;
 	padding-bottom: 1.5rem;
@@ -27,15 +25,13 @@ font-family: 'Open Sans', sans-serif;*/
 .h3 {
 	font-family: 'Pacifico', cursive;
 	color: #e13a92; /* pink */
-	
 }
 p {
-	color: #e13a92;
+	color: #e13a92; /* pink */
 }
-
 .btn {
-	background: #bba64d;
-	border: 1px solid #bba64d;
+	background: #bba64d; /*gold */
+	border: 1px solid #bba64d; /*gold */
 	border-radius: 0;
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 300;
@@ -44,42 +40,38 @@ p {
 	color: #fff;
 }
 .btn:hover {
-	color: #bba64d;
     background-color: #fff;
-    border: 2px solid #bba64d;
+    border: 2px solid #bba64d; /*gold */
     font-style: italic;
+    color: #bba64d; /*gold */
 }
 svg {
-	color: #ffffe0;
+	background: #efb5c4; /*pink */
+    border-radius: 100px;
 	fill: currentColor;
-	/*margin-left: 15px;*/
 	margin-right: 7.5px;
 	margin-left: 7.5px;
+	padding: 10px;
+	height: 45px;
 	width: 45px;
-    height: 45px;
-    padding: 10px;
-    background: #efb5c4; /*pink */
-    border-radius: 100px;
-	
+    color: #ffffe0; 
 }
 /* landing page */
 .jumbotron {
 	background-image: url('/images/cupcakes-lime-sm-57.jpg');
-	min-height: 90vh;
 	background-attachment: fixed;
 	background-size: cover;
 	background-position: 50% 50%;
 	margin-bottom: 0;
+	min-height: 90vh;
 }
 .welcome {
-	/*font-family: 'Pacifico', cursive;*/
 	font-family: 'Fredericka the Great', cursive;
 	font-size: 4em;
 	text-align: center;
 	margin-top: 50%;
 	color: #7246da /* purple */
 }
-
 /* navigation */
 .navbar.navbar-light.background-light {
 	position: fixed;
@@ -101,15 +93,14 @@ a.nav-link:hover {
 	padding-left: 10px;
 }
 .navbar-toggler {
-	border:none;
+	border: none;
 }
 .nav-menu svg{
 	background: none;
 	border-radius: 0;
-	color: #bba64d;
 	margin-top: -1em;
 	margin-left: -2em;
-    
+    color: #bba64d; /* gold */
 }
 .collapse.navbar-collapse {
 	font-size: 1.3em;
@@ -118,7 +109,6 @@ a.nav-link:hover {
 .store {
 	background-image: url('/images/memphis-colorful.png');
 	padding-bottom: 2em;
-	
 }
 .h2-flavors {
 	padding-top: 2em;
@@ -138,21 +128,15 @@ a.nav-link:hover {
 }
 .h2-about {
 	text-align: right;
-	/*padding-right: 9%;
-	padding-left: 9%;*/
+}
+.h2.h2-about {
+	margin-top: -1em;
 }
 .about-content {
 	padding-bottom: 2em;
 }
 .about-us {
 	background: #ffffe0;
-	/*background: #ffffe0;*/
-	/*padding-top: .5em;*/
-	/*padding-bottom: 2.5em;*/
-	/*margin-bottom: -3em;*/
-}
-.h2.h2-about {
-	margin-top: -1em;
 }
 .about-title {
 	background: #dea0f6;
@@ -177,25 +161,19 @@ a.nav-link:hover {
     padding-right: 15px;
     padding-bottom: 7px;
     padding-left: 15px;
-    
 }
 .our-history {
 	background: #91dae1;
-	/*padding-top: 2.5em;*/
-	/*margin-top: -2.5em;*/
 }
-
 /* inverted */
 .inverted {
 	border-radius: 300px;
-
 	max-height: 300px;
 	max-width: 300px;
 }
 .services {
 	background:#e13a92;/* pink */
 	max-width: 100%;
-	
 }
 .h2-inverted {
 	color: #ffffe0; /* sun yellow */
@@ -215,14 +193,12 @@ a.nav-link:hover {
 	padding-bottom: 4em;
 }
 .card {
-		background: none;
-		border: none;
-		/*opacity: .75;*/
-	}
+	background: none;
+	border: none;
+}
 .form-control {
 	font-style: italic;
 }
-
 /* footer */
 .footer {
 	background-image: url('/images/symphony.png');
@@ -242,7 +218,6 @@ a.nav-link:hover {
 .logo-container {
 	text-align: center;
 }
-
 /* Extra Small devices */
 @media screen and (max-width: 413px) {
 	.xsm-12 {
@@ -252,24 +227,18 @@ a.nav-link:hover {
 	.text-logo-sm {
 		max-width: 100%;
 	}
-
 }
-
-
 /*Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) {
 	.welcome {
 		font-size: 6em;
 	}
-
 }
-
 /*Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) {
 	.welcome {
 		font-size: 9em;
 		margin-top: 1em;
-
 	}
 	.middle {
 		border-right: 1px solid #dbc3e3; /* lavender */
@@ -331,9 +300,7 @@ a.nav-link:hover {
 	svg {
 		margin-left: 15px;
 	}
-
 }
-
 /*Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) {
 	.jumbotron {
@@ -347,11 +314,4 @@ a.nav-link:hover {
 		background: #fff;
 		opacity: .85;
 	}
-	
-
-}
-
-/*Extra large devices (large desktops, 1200px and up)*/
-@media (min-width: 1200px) {
-
 }

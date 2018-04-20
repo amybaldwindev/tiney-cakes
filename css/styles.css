@@ -1,15 +1,14 @@
 
 /*colors*/
 /* pastels */
-/* #ffffe0 sun-yellow*/
-/* skyblue*/
+/* #ffffe0 sun yellow */
 /* #dbc3e3 lavender */
 /* #dea0f6 dark lavender*/
-/* #efb5c4 baby-pink*/
+/* #efb5c4 baby pink*/
 
 /* vibrant */
-/* #75d5e5 blue */
-/* #e13a92 pink */
+/* #75d5e5 sky blue */
+/* #e13a92 hot pink */
 /* #7246da purple*/
 /* #bba64d; gold */
 * {
@@ -24,10 +23,10 @@
 }
 .h3 {
 	font-family: 'Pacifico', cursive;
-	color: #e13a92; /* pink */
+	color: #e13a92; /* hot pink */
 }
 p {
-	color: #e13a92; /* pink */
+	color: #e13a92; /* hot pink */
 }
 .btn {
 	background: #bba64d; /*gold */
@@ -46,7 +45,7 @@ p {
     color: #bba64d; /*gold */
 }
 svg {
-	background: #efb5c4; /*pink */
+	background: #efb5c4; /* baby pink */
     border-radius: 100px;
 	fill: currentColor;
 	margin-right: 7.5px;
@@ -136,12 +135,12 @@ a.nav-link:hover {
 	padding-bottom: 2em;
 }
 .about-us {
-	background: #ffffe0;
+	background: #ffffe0; /* sun yellow */
 }
 .about-title {
-	background: #dea0f6;
-	border-bottom: 1px solid #808080;
-    border-right: 1px solid #808080;
+	background: #dea0f6; /* dark lavender */
+	border-bottom: 1px solid #808080; /* gray */
+    border-right: 1px solid #808080; /* gray */
     font-family: 'Fredericka the Great', cursive;
     padding-top: 10px;
     padding-right: 15px;
@@ -153,9 +152,9 @@ a.nav-link:hover {
 	margin-top: -1.2em;
 }
 .history-title {
-	background: #efb5c4;
-	border-bottom: 1px solid #808080;
-    border-right: 1px solid #808080;
+	background: #efb5c4; /* baby pink */
+	border-bottom: 1px solid #808080; /* gray */
+    border-right: 1px solid #808080; /* gray */
     font-family: 'Fredericka the Great', cursive;
     padding-top: 10px;
     padding-right: 15px;
@@ -163,7 +162,7 @@ a.nav-link:hover {
     padding-left: 15px;
 }
 .our-history {
-	background: #91dae1;
+	background: #75d5e5; /* sky blue */
 }
 /* inverted */
 .inverted {
@@ -172,7 +171,7 @@ a.nav-link:hover {
 	max-width: 300px;
 }
 .services {
-	background:#e13a92;/* pink */
+	background:#e13a92;/* hot pink */
 	max-width: 100%;
 }
 .h2-inverted {
@@ -182,7 +181,7 @@ a.nav-link:hover {
 	color: #fff;
 }
 .p-inverted {
-	color:#dbc3e3; /*lavender */
+	color: #dbc3e3; /*lavender */
 }
 /* contact */
 .contact {
@@ -305,10 +304,6 @@ a.nav-link:hover {
 @media (min-width: 992px) {
 	.jumbotron {
 		background-image: url('/images/cupcakes-lime-lg-57.jpg');
-	}
-	.about {
-		/*margin-top: 1em;
-		margin-bottom: 1em;*/
 	}
 	.card {
 		background: #fff;

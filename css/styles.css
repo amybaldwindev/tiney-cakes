@@ -168,14 +168,14 @@ a.nav-link:hover {
 	background: #75d5e5; /* sky blue */
 }
 /* inverted */
+.services {
+	background:#e13a92;/* hot pink */
+	max-width: 100%;
+}
 .inverted {
 	border-radius: 300px;
 	max-height: 300px;
 	max-width: 300px;
-}
-.services {
-	background:#e13a92;/* hot pink */
-	max-width: 100%;
 }
 .h2-inverted {
 	color: #ffffe0; /* sun yellow */
@@ -253,7 +253,6 @@ a.nav-link:hover {
 		max-height: 100%;
 		max-width: 100%;
 	}
-
 	.h2-about {
 		text-align: left;
 	}

@@ -57,7 +57,7 @@ svg {
 }
 /* landing page */
 .jumbotron {
-	background-image: url('/images/cupcakes-lime-sm-57.jpg');
+	background-image: url('../images/cupcakes-lime-sm-57.jpg');
 	background-attachment: fixed;
 	background-size: cover;
 	background-position: 50% 50%;
@@ -109,7 +109,7 @@ a.nav-link:hover {
 }
 /* store */
 .store {
-	background-image: url('/images/memphis-colorful.png');
+	background-image: url('../images/memphis-colorful.png');
 	padding-bottom: 2em;
 }
 .h2-flavors {
@@ -188,7 +188,7 @@ a.nav-link:hover {
 }
 /* contact */
 .contact {
-	background-image: url('/images/macaroon.jpg');
+	background-image: url('../images/macaroon.jpg');
 	background-size: cover;
 	background-position: 50% 50%;
 	padding-top: 4em;
@@ -203,7 +203,7 @@ a.nav-link:hover {
 }
 /* footer */
 .footer {
-	background-image: url('/images/symphony.png');
+	background-image: url('../images/symphony.png');
 }
 .text-logo-sm {
 	padding:0;
@@ -305,7 +305,7 @@ a.nav-link:hover {
 /*Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) {
 	.jumbotron {
-		background-image: url('/images/cupcakes-lime-lg-57.jpg');
+		background-image: url('../images/cupcakes-lime-lg-57.jpg');
 	}
 	.card {
 		background: #fff;

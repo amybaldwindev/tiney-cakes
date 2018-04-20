@@ -93,6 +93,9 @@ svg {
 	background: none;
 	border-radius: 0;
 	color: #bba64d;
+	margin-top: -1em;
+	margin-left: -2em;
+    
 }
 .collapse.navbar-collapse {
 	font-size: 1.5em;
@@ -211,6 +214,10 @@ svg {
 	.gallery {
 		max-height: 100%;
 		max-width: 100%;
+	}
+	.about-content {
+		padding-right: 2em;
+		padding-left: 2em;
 	}
 	.about-us {
 		background: #f2e5b0;

@@ -4,7 +4,7 @@ font-family: 'Open Sans', sans-serif;*/
 /*colors*/
 /* pastels */
 /* #ffffe0 sun-yellow*/
-/* q skyblue*/
+/* skyblue*/
 /* #dbc3e3 lavender */
 /* #dea0f6 dark lavender*/
 /* #efb5c4 baby-pink*/
@@ -81,13 +81,29 @@ svg {
 }
 
 /* navigation */
+.navbar-collapse.collapse.show {
+	margin-left: -1em;
+}
+.navbar-nav.ml-auto {
+	background: -moz-linear-gradient(left, rgba(124,198,122,1) 0%, rgba(124,198,122,0) 33%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(left, rgba(124,198,122,1) 0%,rgba(124,198,122,0) 33%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to right, rgba(124,198,122,1) 0%,rgba(124,198,122,0) 33%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7cc67a', endColorstr='#007cc67a',GradientType=1 ); /* IE6-9 */
+}
+a.nav-link {
+	margin-left: 1em;
+	color: #fff !important;
+}
+a.nav-link:hover {
+	padding-left: 10px;
+}
 .navbar-toggler {
 	border:none;
 }
 .position-fixed {
     /*background: #fafad2;*/
-    width: 100%;
-    z-index: 1;
+    /*width: 100%;*/
+    /*z-index: 1;*/
 }
 .nav-menu svg{
 	background: none;
@@ -98,11 +114,12 @@ svg {
     
 }
 .collapse.navbar-collapse {
-	font-size: 1.5em;
+	font-size: 1.3em;
 }
 /* store */
 .store {
 	background-image: url('/images/memphis-colorful.png');
+	padding-bottom: 2em;
 	
 }
 .h2-flavors {
@@ -122,9 +139,12 @@ svg {
 	margin-bottom: 0;
 }
 .h2-about {
-	text-align: center;
+	text-align: right;
 	/*padding-right: 9%;
 	padding-left: 9%;*/
+}
+.about-content {
+	padding-bottom: 2em;
 }
 .about-us {
 	background: #ffffe0;
@@ -132,6 +152,34 @@ svg {
 	/*padding-top: .5em;*/
 	/*padding-bottom: 2.5em;*/
 	/*margin-bottom: -3em;*/
+}
+.h2.h2-about {
+	margin-top: -1em;
+}
+.about-title {
+	background: #dea0f6;
+	border-bottom: 1px solid #808080;
+    border-right: 1px solid #808080;
+    font-family: 'Fredericka the Great', cursive;
+    padding-top: 10px;
+    padding-right: 15px;
+    padding-bottom: 7px;
+    padding-left: 15px;
+    margin-top: -1.1em;
+}
+.h2.h2-history {
+	margin-top: -1.2em;
+}
+.history-title {
+	background: #efb5c4;
+	border-bottom: 1px solid #808080;
+    border-right: 1px solid #808080;
+    font-family: 'Fredericka the Great', cursive;
+    padding-top: 10px;
+    padding-right: 15px;
+    padding-bottom: 7px;
+    padding-left: 15px;
+    
 }
 .our-history {
 	background: #91dae1;
@@ -235,6 +283,7 @@ svg {
 		max-height: 100%;
 		max-width: 100%;
 	}
+
 	.h2-about {
 		text-align: left;
 	}
@@ -251,6 +300,17 @@ svg {
 	.history {
 		margin-top: -2em;
 		padding-bottom: 1rem;
+	}
+	.about-title,
+	.history-title {
+		background: none;
+		border-bottom: none;
+	    border-right: none;
+	    padding:0;
+    
+	}
+	.h2.h2-about {
+		margin-top: 0;
 	}
 	.services {
 		padding-top: 5em;

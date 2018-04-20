@@ -4,7 +4,7 @@ font-family: 'Open Sans', sans-serif;*/
 /*colors*/
 /* pastels */
 /* #f2e5b0 sun-yellow*/
-/* #96dbe2 skyblue*/
+/* q skyblue*/
 /* #dbc3e3 lavender */
 /* #dea0f6 dark lavender*/
 /* #efb5c4 baby-pink*/
@@ -69,6 +69,7 @@ svg {
 	background-attachment: fixed;
 	background-size: cover;
 	background-position: 50% 50%;
+	margin-bottom: 0;
 }
 .welcome {
 	/*font-family: 'Pacifico', cursive;*/
@@ -99,6 +100,7 @@ svg {
 /* store */
 .store {
 	background-image: url('/images/memphis-colorful.png');
+	padding-bottom: 5em;
 }
 .items {
 	padding-bottom: 2em;
@@ -110,19 +112,24 @@ svg {
 }
 /* about */
 .about {
-	
 	margin-bottom: 0;
+}
+.abt-content {
+	/*padding-right: 9%;
+	padding-left: 9%;*/
 }
 
 /* inverted */
 .inverted {
 	border-radius: 300px;
+
 	max-height: 300px;
 	max-width: 300px;
 }
 .services {
 	background:#e13a92;/* pink */
 	max-width: 100%;
+	padding-top: 5em;
 }
 .h2-inverted {
 	color: #f2e5b0; /* sun yellow */
@@ -204,6 +211,17 @@ svg {
 	.gallery {
 		max-height: 100%;
 		max-width: 100%;
+	}
+	.about-us {
+		background: #f2e5b0;
+		padding-top: .5em;
+		padding-bottom: 2.5em;
+		margin-bottom: -3em;
+	}
+	.our-history {
+		background: #91dae1;
+		padding-top: 2.5em;
+		margin-top: -2.5em;
 	}
 	.inverted {
 		max-height: 100%;

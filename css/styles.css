@@ -72,6 +72,9 @@ svg {
 	color: #7246da /* purple */
 }
 /* navigation */
+nav {
+	z-index: 1;
+}
 .navbar.navbar-light.background-light {
 	position: fixed;
 }

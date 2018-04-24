@@ -48,6 +48,7 @@ svg {
 	background: #efb5c4; /* baby pink */
     border-radius: 100px;
 	fill: currentColor;
+	margin-top: 2em;
 	margin-right: 7.5px;
 	margin-left: 7.5px;
 	padding: 10px;
@@ -191,7 +192,7 @@ a.nav-link:hover {
 	background-image: url('../images/macaroon.jpg');
 	background-size: cover;
 	background-position: 50% 50%;
-	padding-top: 4em;
+	padding-top: 0;
 	padding-bottom: 4em;
 }
 .card {
@@ -212,6 +213,7 @@ a.nav-link:hover {
 .cpyrgt {
 	text-align: center;
 	padding: 10px;
+	color: #efb5c4;
 }
 .social  {
 	text-align: center;
@@ -291,6 +293,9 @@ a.nav-link:hover {
 		max-height: 100%;
 		max-width: 100%;
 	}
+	.contact {
+		padding-top: 4em;
+	}
 	.cpyrgt {
 		text-align: left;
 	}
@@ -299,6 +304,7 @@ a.nav-link:hover {
 		margin-top: 0;
 	}
 	svg {
+		margin-top: 0;
 		margin-left: 15px;
 	}
 }
